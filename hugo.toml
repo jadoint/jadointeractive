@@ -1,0 +1,135 @@
+baseURL = 'https://jadointeractive.com/'
+languageCode = 'en-us'
+title = 'Jado Interactive'
+theme = 'spectral'
+
+[params]
+fancyTitle = 'Jado Interactive' # title for frontpage, may include image
+copyright = "Jado Interactive"
+description = 'Full service web and app development consulting<br />for startups and growing companies'
+startbuttonText = ""
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '#one'
+title = "Mission"
+
+[[params.menu.main]]
+url = '#two'
+title = "Meet The Team"
+
+[[params.menu.main]]
+url = '#three'
+title = "Portfolio"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'Craft your ideal digital experience'
+body = '''
+Since 2011, we've helped launch and maintain popular sites used by millions of people around the world, developed fast mobile apps that have delighted their users, and architected resilient infrastructure ready to scale for traffic of all sizes. We're here to help you get your ideas off the ground and grow your business.
+'''
+
+[[params.one.icon]]
+icon = "fa-gem" # fa-shield
+style = "1"
+label = "Secure"
+
+[[params.one.icon]]
+icon = "fa-heart" # fa-terminal
+style = "2"
+label = "Vim is the best :)"
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "3"
+label = "Clean Code"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "images/jkyoto.webp"
+img_alt = "blurry background: white/grey"
+title = 'Meet Your Full Stack Developer'
+body = "David has been writing code for the better part of two decades. With a Master's in Information Systems, he's had experience in industries including web, telecom, finance, and logistics. He currently specializes in programming the business logic for client ideas and architecting the infrastructure ensuring that it will always be online."
+
+[[params.two.section]] 
+img = "images/ai_tree.webp"
+img_alt = "blurry background: white/grey"
+title = 'Meet Your UX Engineer'
+body = 'Ai is a mechanical engineering graduate with a diverse background in design, engineering, architecture, and finance. She currently specializes in creative coding, interaction design, and user experience.'
+
+[params.three]
+enable = true
+title = 'Portfolio'
+body = '''
+
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Love Wife, Hate Travel"
+body = "A travel site featuring reviews of top hotels, first class air travel, and fine dining."
+
+[[params.three.feature]]
+icon = ""
+title = "<img src=\"images/aff_logo_light.png\" />"
+body = "A fanfiction site currently used by millions of users around the world."
+
+[[params.three.feature]]
+icon = ""
+title = "<img src=\"images/rpr_logo_light.png\" />"
+body = "A site specifically designed for the needs of gamers and online roleplayers."
+
+[[params.three.feature]]
+icon = ""
+title = "<img src=\"images/ffo_logo_light.png\" />"
+body = "A fanfiction site for general interests."
+
+[params.cta]
+enable = false
+title = "Arcue ut vel commodo"
+body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla. "
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = false
+title = "Contact"
+body = "Leave us a message."
+phone = ""
+address = ""
+email = "inquiries@jadointeractive.com"
+subject = "New Client Inquiry"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = "jadoint"
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
