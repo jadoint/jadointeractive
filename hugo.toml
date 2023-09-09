@@ -6,7 +6,7 @@ theme = 'spectral'
 [params]
 fancyTitle = 'Jado Interactive' # title for frontpage, may include image
 copyright = "Jado Interactive"
-description = 'Full service web and app development consulting<br />for startups and growing companies'
+description = 'Full service web and app development consulting <br />for startups and growing companies'
 startbuttonText = ""
 startbuttonLink = "#"
 body_is_markdown = true
