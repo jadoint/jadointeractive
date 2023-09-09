@@ -2087,6 +2087,13 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 6 Free';
 			font-weight: 400;
+
+			
+		}
+
+		/* Custom */
+		#three .icon:before {
+			color: #ffffff !important;
 		}
 
 		.icon > .label {
